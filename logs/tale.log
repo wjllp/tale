@@ -8308,3 +8308,52 @@ git config --global color.ui true        #显示git相关颜色<br></pre><ul><li
 2018-10-20 13:50:56:922 WARN - [ nio-worker@ thread-1 ] c.b.m.h.RequestExecution  | Not Found	/blog/wp-login.php
 2018-10-20 13:50:57:840 WARN - [ nio-worker@ thread-2 ] c.b.m.h.RequestExecution  | Not Found	/wp/wp-login.php
 2018-10-20 13:50:58:784 WARN - [ nio-worker@ thread-1 ] c.b.m.h.RequestExecution  | Not Found	/wordpress/wp-login.php
+2018-10-21 00:10:51:182 INFO - [ watch@thread ] c.b.w.EnvironmentWatcher  | ⬢ Reload environment
+2018-10-21 00:10:56:619 INFO - [ watch@thread ] c.b.w.EnvironmentWatcher  | ⬢ Reload environment
+2018-10-21 01:58:09:414 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/robots.txt
+2018-10-21 01:58:09:436 WARN - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | Not Found	/robots.txt
+2018-10-21 01:58:09:779 INFO - [ nio-worker@ thread-1 ] c.b.m.h.RequestExecution  | HTTP/1.0	GET	/tag/%E7%88%AC%E8%99%AB
+2018-10-21 01:58:09:810 INFO - [ nio-worker@ thread-1 ] c.t.h.BaseWebHook         | UserAgent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+2018-10-21 01:58:09:811 INFO - [ nio-worker@ thread-1 ] c.t.h.BaseWebHook         | 用户访问地址: /tag/%E7%88%AC%E8%99%AB, 来路地址: 127.0.0.1
+2018-10-21 01:58:09:841 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => select a.*, count(b.cid) as count from t_metas a left join `t_relationships` b on a.mid = b.mid where a.type = :p1 and a.name = :p2 group by a.mid
+2018-10-21 01:58:09:842 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [tag, 爬虫]
+2018-10-21 01:58:09:885 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT COUNT(0) FROM (select a.* from t_contents a left join t_relationships b on a.cid = b.cid where b.mid = :p1 and a.status = 'publish' and a.type = 'post') tmp
+2018-10-21 01:58:09:885 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [27]
+2018-10-21 01:58:09:893 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => select a.* from t_contents a left join t_relationships b on a.cid = b.cid where b.mid = :p1 and a.status = 'publish' and a.type = 'post' ORDER BY a.created desc LIMIT 0, 12
+2018-10-21 01:58:09:893 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [27]
+2018-10-21 01:58:09:934 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT COUNT(0) FROM (SELECT * FROM t_contents WHERE status = :p1 AND type = :p2) tmp
+2018-10-21 01:58:09:934 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [publish, post]
+2018-10-21 01:58:09:935 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT * FROM t_contents WHERE status = :p1 AND type = :p2 ORDER BY created desc LIMIT 0, 8
+2018-10-21 01:58:09:935 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [publish, post]
+2018-10-21 01:58:09:936 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT COUNT(0) FROM (SELECT * FROM t_comments) tmp
+2018-10-21 01:58:09:937 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => []
+2018-10-21 01:58:09:937 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT * FROM t_comments ORDER BY created desc LIMIT 0, 8
+2018-10-21 01:58:09:937 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => []
+2018-10-21 03:31:31:439 INFO - [ nio-worker@ thread-2 ] c.b.m.h.RequestExecution  | HTTP/1.0	GET	/
+2018-10-21 03:31:31:457 INFO - [ nio-worker@ thread-2 ] c.t.h.BaseWebHook         | UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/537.36
+2018-10-21 03:31:31:458 INFO - [ nio-worker@ thread-2 ] c.t.h.BaseWebHook         | 用户访问地址: /, 来路地址: 127.0.0.1
+2018-10-21 03:31:31:487 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT COUNT(0) FROM (SELECT * FROM t_contents WHERE type = :p1 AND status = :p2) tmp
+2018-10-21 03:31:31:487 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [post, publish]
+2018-10-21 03:31:31:501 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT * FROM t_contents WHERE type = :p1 AND status = :p2 ORDER BY created desc LIMIT 0, 12
+2018-10-21 03:31:31:501 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [post, publish]
+2018-10-21 03:31:31:838 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT COUNT(0) FROM (SELECT * FROM t_contents WHERE type = :p1 AND status = :p2) tmp
+2018-10-21 03:31:31:838 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [post, publish]
+2018-10-21 03:31:31:839 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT * FROM t_contents WHERE type = :p1 AND status = :p2 ORDER BY created desc LIMIT 0, 12
+2018-10-21 03:31:31:839 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [post, publish]
+2018-10-21 03:31:31:850 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT COUNT(0) FROM (SELECT * FROM t_contents WHERE status = :p1 AND type = :p2) tmp
+2018-10-21 03:31:31:850 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [publish, post]
+2018-10-21 03:31:31:851 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT * FROM t_contents WHERE status = :p1 AND type = :p2 ORDER BY created desc LIMIT 0, 8
+2018-10-21 03:31:31:851 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [publish, post]
+2018-10-21 03:31:31:853 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT COUNT(0) FROM (SELECT * FROM t_comments) tmp
+2018-10-21 03:31:31:853 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => []
+2018-10-21 03:31:31:854 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT * FROM t_comments ORDER BY created desc LIMIT 0, 8
+2018-10-21 03:31:31:854 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => []
+2018-10-21 03:31:46:281 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/robots.txt
+2018-10-21 03:31:46:281 WARN - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | Not Found	/robots.txt
+2018-10-21 03:31:47:778 INFO - [ nio-worker@ thread-2 ] c.b.m.h.RequestExecution  | HTTP/1.0	GET	/sitemap.xml
+2018-10-21 03:31:47:780 INFO - [ nio-worker@ thread-2 ] c.t.h.BaseWebHook         | UserAgent: 
+2018-10-21 03:31:47:781 INFO - [ nio-worker@ thread-2 ] c.t.h.BaseWebHook         | 用户访问地址: /sitemap.xml, 来路地址: 127.0.0.1
+2018-10-21 03:31:47:807 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT * FROM t_contents WHERE type = :p1 AND status = :p2 AND allow_feed = :p3 ORDER BY created DESC
+2018-10-21 03:31:47:807 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [post, publish, true]
+2018-10-21 03:31:50:268 WARN - [ nio-worker@ thread-1 ] c.b.m.h.RequestExecution  | Not Found	/.well-known/security.txt
+2018-10-21 03:31:55:712 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/templates/themes/default/static/img/favicon.png
