@@ -1,249 +1,180 @@
-2018-11-11 02:04:59:780 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: jdk.version    => 1.8.0_181
-2018-11-11 02:04:59:794 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: user.dir       => /root/tale
-2018-11-11 02:04:59:795 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: java.io.tmpdir => /tmp
-2018-11-11 02:04:59:795 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: user.timezone  => America/New_York
-2018-11-11 02:04:59:795 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: file.encoding  => UTF-8
-2018-11-11 02:04:59:795 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: classpath      => /root/tale/resources
-2018-11-11 02:05:00:022 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin
-2018-11-11 02:05:00:023 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/categories.html
-2018-11-11 02:05:00:023 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/feed.xml
-2018-11-11 02:05:00:023 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/atom.xml
-2018-11-11 02:05:00:023 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/page/new
-2018-11-11 02:05:00:023 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/tags
-2018-11-11 02:05:00:023 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/article
-2018-11-11 02:05:00:023 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/feed
-2018-11-11 02:05:00:023 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/index
-2018-11-11 02:05:00:023 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/attach/upload
-2018-11-11 02:05:00:024 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/article/publish
-2018-11-11 02:05:00:024 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/page/publish
-2018-11-11 02:05:00:024 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/category/:keyword/:page.html
-2018-11-11 02:05:00:024 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/comments/delete
-2018-11-11 02:05:00:024 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/template/content
-2018-11-11 02:05:00:024 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/article/publish
-2018-11-11 02:05:00:024 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/template/save
-2018-11-11 02:05:00:024 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/category/save
-2018-11-11 02:05:00:024 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/attach
-2018-11-11 02:05:00:024 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/profile
-2018-11-11 02:05:00:025 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/page/:page
-2018-11-11 02:05:00:025 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/profile
-2018-11-11 02:05:00:025 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/comments
-2018-11-11 02:05:00:025 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/categories
-2018-11-11 02:05:00:025 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/search.html
-2018-11-11 02:05:00:025 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/advanced
-2018-11-11 02:05:00:025 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/themes/setting
-2018-11-11 02:05:00:025 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/login
-2018-11-11 02:05:00:025 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/themes
-2018-11-11 02:05:00:030 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/install
-2018-11-11 02:05:00:030 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/article/:cid.html
-2018-11-11 02:05:00:030 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/page/modify
-2018-11-11 02:05:00:030 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/tags.html
-2018-11-11 02:05:00:031 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => ALL	/admin/attach/delete
-2018-11-11 02:05:00:031 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/page
-2018-11-11 02:05:00:031 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/sitemap
-2018-11-11 02:05:00:031 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/
-2018-11-11 02:05:00:031 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/template
-2018-11-11 02:05:00:031 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/search
-2018-11-11 02:05:00:031 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/sitemap.xml
-2018-11-11 02:05:00:031 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/password
-2018-11-11 02:05:00:031 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/:cid.html
-2018-11-11 02:05:00:031 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/page/:cid
-2018-11-11 02:05:00:031 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/category
-2018-11-11 02:05:00:032 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/category/:keyword/:page
-2018-11-11 02:05:00:032 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/search/:keyword/:page
-2018-11-11 02:05:00:032 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => ALL	/admin/page/delete
-2018-11-11 02:05:00:032 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/tag/:name/:page
-2018-11-11 02:05:00:032 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => ALL	/logout
-2018-11-11 02:05:00:032 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => ALL	/admin/article/delete
-2018-11-11 02:05:00:033 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/tag/:name.html
-2018-11-11 02:05:00:033 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/page/:page.html
-2018-11-11 02:05:00:033 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/search/:keyword.html
-2018-11-11 02:05:00:033 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/comments
-2018-11-11 02:05:00:033 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/setting
-2018-11-11 02:05:00:033 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/archives.html
-2018-11-11 02:05:00:033 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/search/:keyword/:page.html
-2018-11-11 02:05:00:033 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/comment
-2018-11-11 02:05:00:033 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/archives
-2018-11-11 02:05:00:033 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/tag/:name
-2018-11-11 02:05:00:034 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/category/:keyword.html
-2018-11-11 02:05:00:034 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/article/:cid
-2018-11-11 02:05:00:034 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/article/:cid
-2018-11-11 02:05:00:034 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/install
-2018-11-11 02:05:00:034 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/themes/setting
-2018-11-11 02:05:00:034 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/login
-2018-11-11 02:05:00:034 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => ALL	/admin/category/delete
-2018-11-11 02:05:00:034 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/comments/status
-2018-11-11 02:05:00:035 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/:cid
-2018-11-11 02:05:00:035 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/setting
-2018-11-11 02:05:00:035 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/article/modify
-2018-11-11 02:05:00:035 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/themes/active
-2018-11-11 02:05:00:035 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/reload
-2018-11-11 02:05:00:035 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/tag/:name/:page.html
-2018-11-11 02:05:00:035 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/category/:keyword
-2018-11-11 02:05:00:035 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/search/:keyword
-2018-11-11 02:05:00:035 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/backup
-2018-11-11 02:05:00:036 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add hook  => [BEFORE	/.*]
-2018-11-11 02:05:00:036 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add hook  => [AFTER	/.*]
-2018-11-11 02:05:00:047 INFO - [ _(:3」∠)_ ] c.t.i.SqliteJdbc          | blade dev mode: false
-2018-11-11 02:05:00:047 INFO - [ _(:3」∠)_ ] c.t.i.SqliteJdbc          | load sqlite database path [/root/tale/resources/tale.db]
-2018-11-11 02:05:00:047 INFO - [ _(:3」∠)_ ] c.t.i.SqliteJdbc          | load sqlite database src [jdbc:sqlite:///root/tale/resources/tale.db]
-2018-11-11 02:05:00:249 INFO - [ _(:3」∠)_ ] c.t.i.SqliteJdbc          | database path is: /root/tale/resources/tale.db
-2018-11-11 02:05:00:263 INFO - [ _(:3」∠)_ ] c.b.j.Base                | ⬢ Blade-JDBC initializing
-2018-11-11 02:05:00:264 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | ⬢ Register bean: [com.blade.Environment@4ca77897, com.tale.service.ContentsService@695066df, com.tale.init.WebContext@24c54dd9, com.tale.exception.GolbalExceptionHandler@7049a195, com.tale.service.SiteService@7dd0ccb, com.tale.controller.admin.AuthController@6d51e471, com.tale.service.OptionsService@6374c787, com.tale.controller.admin.ThemeController@5e0c9775, com.tale.controller.admin.CategoryController@31d8632b, com.tale.hooks.BaseWebHook@53486b0d, com.tale.controller.CategoryController@1645d61c, com.tale.controller.admin.AttachController@2c485c9e, com.tale.controller.IndexController@5efbb307, com.tale.service.CommentsService@4efbbbd6, com.tale.controller.admin.PageController@76366123, com.tale.controller.admin.IndexController@18747fd7, com.tale.controller.admin.CommentController@1b149455, com.tale.controller.InstallController@822b9ea, com.tale.service.MetasService@4d58feb4, com.tale.init.WebContext@24c54dd9, com.tale.controller.admin.ArticleController@7669ba0f, com.tale.hooks.BaseWebHook@53486b0d, com.tale.controller.admin.TemplateController@49602eab]
-2018-11-11 02:05:00:342 INFO - [ _(:3」∠)_ ] j.t.JetEngineImpl         | JetEngine.version = 2.1.5
-2018-11-11 02:05:00:342 INFO - [ _(:3」∠)_ ] j.t.JetEngineImpl         | JetEngine.loader = jetbrick.template.loader.ClasspathResourceLoader, root = /templates/, reload = true
-2018-11-11 02:05:00:368 INFO - [ _(:3」∠)_ ] j.t.r.c.ClassResolver     | import package: java.lang.*
-2018-11-11 02:05:00:368 INFO - [ _(:3」∠)_ ] j.t.r.c.ClassResolver     | import package: java.util.*
-2018-11-11 02:05:00:372 INFO - [ _(:3」∠)_ ] j.t.r.m.MethodInvokerResolver | import 38 methods from class jetbrick.template.runtime.buildin.JetMethods
-2018-11-11 02:05:00:376 INFO - [ _(:3」∠)_ ] j.t.r.f.FunctionInvokerResolver | import 11 functions from class jetbrick.template.runtime.buildin.JetFunctions
-2018-11-11 02:05:00:379 INFO - [ _(:3」∠)_ ] j.t.r.t.TagInvokerResolver | import 2 tags from class jetbrick.template.runtime.buildin.JetTags
-2018-11-11 02:05:00:381 INFO - [ _(:3」∠)_ ] j.t.r.GlobalResolver      | Scanning @JetMethods, @JetFunctions, @JetTags implements from [com.tale] ...
-2018-11-11 02:05:00:428 INFO - [ _(:3」∠)_ ] j.t.r.GlobalResolver      | Found 0 annotated classes, time elapsed 47 ms.
-2018-11-11 02:05:00:471 INFO - [ _(:3」∠)_ ] j.t.JetTemplateImpl       | Loading template: /comm/macros.html
-2018-11-11 02:05:00:644 INFO - [ _(:3」∠)_ ] j.t.r.f.FunctionInvokerResolver | import 21 functions from class com.tale.extension.Commons
-2018-11-11 02:05:00:644 INFO - [ _(:3」∠)_ ] j.t.r.f.FunctionInvokerResolver | import 50 functions from class com.tale.extension.Theme
-2018-11-11 02:05:00:644 INFO - [ _(:3」∠)_ ] j.t.r.f.FunctionInvokerResolver | import 2 functions from class com.tale.extension.AdminCommons
-2018-11-11 02:05:00:644 INFO - [ _(:3」∠)_ ] j.t.r.t.TagInvokerResolver | import 1 tags from class com.tale.extension.JetTag
-2018-11-11 02:05:00:658 DEBUG - [ _(:3」∠)_ ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT * FROM t_options
-2018-11-11 02:05:00:659 DEBUG - [ _(:3」∠)_ ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => []
-2018-11-11 02:05:00:763 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | ⬢ Watched environment: true
-2018-11-11 02:05:00:806 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | ⬢ Use NioEventLoopGroup
-2018-11-11 02:05:01:158 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | ⬢ Tale (塌了) initialize successfully, Time elapsed: 1425 ms
-2018-11-11 02:05:01:159 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | ⬢ Blade start with 0.0.0.0:1997
-2018-11-11 02:05:01:159 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | ⬢ Open your web browser and navigate to http://127.0.0.1:1997 ⚡
-2018-11-11 02:05:01:496 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/favicon.ico
-2018-11-11 02:05:01:497 WARN - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | Not Found	/favicon.ico
-2018-11-11 02:05:01:503 INFO - [ nio-worker@ thread-1 ] j.t.JetTemplateImpl       | Loading template: /comm/error_404.html
-2018-11-11 02:05:03:542 INFO - [ nio-worker@ thread-2 ] c.b.m.h.RequestExecution  | HTTP/1.0	GET	/
-2018-11-11 02:05:03:587 INFO - [ nio-worker@ thread-2 ] c.t.h.BaseWebHook         | UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-2018-11-11 02:05:03:587 INFO - [ nio-worker@ thread-2 ] c.t.h.BaseWebHook         | 用户访问地址: /, 来路地址: 127.0.0.1
-2018-11-11 02:05:03:601 INFO - [ nio-worker@ thread-2 ] j.t.JetTemplateImpl       | Loading template: themes/default/index.html
-2018-11-11 02:05:03:635 INFO - [ nio-worker@ thread-2 ] j.t.JetTemplateImpl       | Loading template: themes/default/partial/header.html
-2018-11-11 02:05:03:736 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT COUNT(0) FROM (SELECT * FROM t_contents WHERE type = :p1 AND status = :p2) tmp
-2018-11-11 02:05:03:736 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [post, publish]
-2018-11-11 02:05:03:752 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT * FROM t_contents WHERE type = :p1 AND status = :p2 ORDER BY created desc LIMIT 0, 12
-2018-11-11 02:05:03:753 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [post, publish]
-2018-11-11 02:05:04:573 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT COUNT(0) FROM (SELECT * FROM t_contents WHERE type = :p1 AND status = :p2) tmp
-2018-11-11 02:05:04:574 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [post, publish]
-2018-11-11 02:05:04:578 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT * FROM t_contents WHERE type = :p1 AND status = :p2 ORDER BY created desc LIMIT 0, 12
-2018-11-11 02:05:04:578 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [post, publish]
-2018-11-11 02:05:04:657 INFO - [ nio-worker@ thread-2 ] j.t.JetTemplateImpl       | Loading template: themes/default/partial/footer.html
-2018-11-11 02:05:04:677 INFO - [ nio-worker@ thread-2 ] j.t.JetTemplateImpl       | Loading template: themes/default/partial/social.html
-2018-11-11 02:05:04:683 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT COUNT(0) FROM (SELECT * FROM t_contents WHERE status = :p1 AND type = :p2) tmp
-2018-11-11 02:05:04:683 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [publish, post]
-2018-11-11 02:05:04:691 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT * FROM t_contents WHERE status = :p1 AND type = :p2 ORDER BY created desc LIMIT 0, 8
-2018-11-11 02:05:04:691 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [publish, post]
-2018-11-11 02:05:04:705 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT COUNT(0) FROM (SELECT * FROM t_comments) tmp
-2018-11-11 02:05:04:705 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => []
-2018-11-11 02:05:04:706 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT * FROM t_comments ORDER BY created desc LIMIT 0, 8
-2018-11-11 02:05:04:706 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => []
-2018-11-11 02:05:05:388 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/templates/themes/default/static/css/xcode.min.css
-2018-11-11 02:05:05:764 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/templates/themes/default/static/css/style.min.css
-2018-11-11 02:05:05:864 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/static/admin/plugins/jquery/3.2.1/jquery.min.js
-2018-11-11 02:05:05:870 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/templates/themes/default/static/js/headroom.min.js
-2018-11-11 02:05:05:883 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/templates/themes/default/static/img/logo.png
-2018-11-11 02:05:06:135 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/templates/themes/default/static/js/instantclick.min.js
-2018-11-11 02:05:06:817 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/templates/themes/default/static/img/bg-ico.png
-2018-11-11 02:05:06:830 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/templates/themes/default/static/img/rand/12.jpg
-2018-11-11 02:05:06:843 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/templates/themes/default/static/img/rand/15.jpg
-2018-11-11 02:05:06:844 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/upload/2018/10/u9obnvtreah3qpem7uc0glnsb8.jpg
-2018-11-11 02:05:06:855 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/upload/2018/08/r15sm8sfn6icnpqkidmdnkls7p.jpg
-2018-11-11 02:05:06:858 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/upload/2018/08/0k1fbv5hroi69rn69hkm2uqcsd.jpg
-2018-11-11 02:05:07:048 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/templates/themes/default/static/img/rand/1.jpg
-2018-11-11 02:05:07:420 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/templates/themes/default/static/img/rand/7.jpg
-2018-11-11 02:05:07:559 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/upload/2018/08/tpf09kqd10ga8ocvv34q11vrak.jpg
-2018-11-11 02:05:07:833 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/templates/themes/default/static/img/rand/19.jpg
-2018-11-11 02:05:08:960 INFO - [ nio-worker@ thread-1 ] c.b.m.h.RequestExecution  | HTTP/1.0	GET	/admin
-2018-11-11 02:05:08:974 INFO - [ nio-worker@ thread-1 ] c.t.h.BaseWebHook         | UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-2018-11-11 02:05:08:974 INFO - [ nio-worker@ thread-1 ] c.t.h.BaseWebHook         | 用户访问地址: /admin, 来路地址: 127.0.0.1
-2018-11-11 02:05:09:119 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/upload/2018/09/u50drqv3p6j61or1r5ero6881l.jpg
-2018-11-11 02:05:09:365 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/templates/themes/default/static/img/rand/2.jpg
-2018-11-11 02:05:10:560 INFO - [ nio-worker@ thread-2 ] c.b.m.h.RequestExecution  | HTTP/1.0	GET	/admin/login
-2018-11-11 02:05:10:560 INFO - [ nio-worker@ thread-2 ] c.t.h.BaseWebHook         | UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-2018-11-11 02:05:10:560 INFO - [ nio-worker@ thread-2 ] c.t.h.BaseWebHook         | 用户访问地址: /admin/login, 来路地址: 127.0.0.1
-2018-11-11 02:05:10:574 INFO - [ nio-worker@ thread-2 ] j.t.JetTemplateImpl       | Loading template: admin/login.html
-2018-11-11 02:05:11:270 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/static/admin/plugins/font-awesome/4.7.0/css/font-awesome.min.css
-2018-11-11 02:05:11:869 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/static/admin/plugins/bootstrap/3.3.7/css/bootstrap.min.css
-2018-11-11 02:05:11:910 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/static/admin/plugins/limonte-sweetalert2/6.4.1/sweetalert2.min.css
-2018-11-11 02:05:12:393 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/static/admin/css/style.min.css
-2018-11-11 02:05:12:721 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/static/admin/plugins/limonte-sweetalert2/6.4.1/sweetalert2.min.js
-2018-11-11 02:05:12:724 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/static/admin/js/base.js
-2018-11-11 02:05:13:263 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/static/admin/images/bg/3.png
-2018-11-11 02:05:13:274 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/static/admin/images/small/bg.png
-2018-11-11 02:05:21:292 INFO - [ nio-worker@ thread-1 ] c.b.m.h.RequestExecution  | HTTP/1.0	POST	/admin/login
-2018-11-11 02:05:21:294 INFO - [ nio-worker@ thread-1 ] c.t.h.BaseWebHook         | UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-2018-11-11 02:05:21:294 INFO - [ nio-worker@ thread-1 ] c.t.h.BaseWebHook         | 用户访问地址: /admin/login, 来路地址: 127.0.0.1
-2018-11-11 02:05:21:299 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT COUNT(*) FROM t_users WHERE username = :p1
-2018-11-11 02:05:21:299 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [wangjun]
-2018-11-11 02:05:21:310 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT * FROM t_users WHERE username = :p1 AND password = :p2
-2018-11-11 02:05:21:310 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [wangjun, 4e58a2aada48237d38ec9967a6a3a8fa]
-2018-11-11 02:05:21:330 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => UPDATE t_users SET logged = :p1 WHERE uid = :p2
-2018-11-11 02:05:21:331 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [1541919921, 1]
-2018-11-11 02:05:21:373 INFO - [ nio-worker@ thread-1 ] c.t.c.a.AuthController    | 登录成功：wangjun
-2018-11-11 02:05:21:374 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => INSERT INTO t_logs (action, data, author_id, ip, created) VALUES (:action, :data, :author_id, :ip, :created)
-2018-11-11 02:05:21:778 INFO - [ nio-worker@ thread-2 ] c.b.m.h.RequestExecution  | HTTP/1.0	GET	/admin/index
-2018-11-11 02:05:21:778 INFO - [ nio-worker@ thread-2 ] c.t.h.BaseWebHook         | UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-2018-11-11 02:05:21:778 INFO - [ nio-worker@ thread-2 ] c.t.h.BaseWebHook         | 用户访问地址: /admin/index, 来路地址: 127.0.0.1
-2018-11-11 02:05:21:779 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT COUNT(0) FROM (SELECT * FROM t_comments) tmp
-2018-11-11 02:05:21:779 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => []
-2018-11-11 02:05:21:779 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT * FROM t_comments ORDER BY created desc LIMIT 0, 5
-2018-11-11 02:05:21:779 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => []
-2018-11-11 02:05:21:780 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT COUNT(0) FROM (SELECT * FROM t_contents WHERE status = :p1 AND type = :p2) tmp
-2018-11-11 02:05:21:780 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [publish, post]
-2018-11-11 02:05:21:787 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT * FROM t_contents WHERE status = :p1 AND type = :p2 ORDER BY created desc LIMIT 0, 5
-2018-11-11 02:05:21:787 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [publish, post]
-2018-11-11 02:05:21:789 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT COUNT(*) FROM t_contents WHERE type = :p1 AND status = :p2
-2018-11-11 02:05:21:789 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [post, publish]
-2018-11-11 02:05:21:790 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT COUNT(*) FROM t_contents WHERE type = :p1 AND status = :p2
-2018-11-11 02:05:21:790 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [page, publish]
-2018-11-11 02:05:21:791 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT COUNT(*) FROM t_comments
-2018-11-11 02:05:21:791 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => []
-2018-11-11 02:05:21:791 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT COUNT(*) FROM t_attach
-2018-11-11 02:05:21:791 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => []
-2018-11-11 02:05:21:797 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT COUNT(*) FROM t_metas WHERE type = :p1
-2018-11-11 02:05:21:797 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [tag]
-2018-11-11 02:05:21:797 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT COUNT(*) FROM t_metas WHERE type = :p1
-2018-11-11 02:05:21:797 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [category]
-2018-11-11 02:05:21:809 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT COUNT(0) FROM (SELECT * FROM t_logs) tmp
-2018-11-11 02:05:21:809 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => []
-2018-11-11 02:05:21:810 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT * FROM t_logs ORDER BY id desc LIMIT 0, 20
-2018-11-11 02:05:21:810 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => []
-2018-11-11 02:05:21:827 INFO - [ nio-worker@ thread-2 ] j.t.JetTemplateImpl       | Loading template: admin/index.html
-2018-11-11 02:05:21:836 INFO - [ nio-worker@ thread-2 ] j.t.JetTemplateImpl       | Loading template: admin/header.html
-2018-11-11 02:05:21:906 INFO - [ nio-worker@ thread-2 ] j.t.JetTemplateImpl       | Loading template: admin/footer.html
-2018-11-11 02:05:22:411 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/static/admin/images/unicorn.png
-2018-11-11 02:05:22:427 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/static/admin/plugins/bootstrap/3.3.7/js/bootstrap.min.js
-2018-11-11 02:05:22:429 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/static/admin/js/jquery.app.js
-2018-11-11 02:05:22:435 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/static/admin/js/base.js
-2018-11-11 02:05:22:461 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/static/admin/plugins/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2
-2018-11-11 02:05:25:419 INFO - [ nio-worker@ thread-2 ] c.b.m.h.RequestExecution  | HTTP/1.0	GET	/admin/page
-2018-11-11 02:05:25:426 INFO - [ nio-worker@ thread-2 ] c.t.h.BaseWebHook         | UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-2018-11-11 02:05:25:426 INFO - [ nio-worker@ thread-2 ] c.t.h.BaseWebHook         | 用户访问地址: /admin/page, 来路地址: 127.0.0.1
-2018-11-11 02:05:25:426 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT COUNT(0) FROM (SELECT * FROM t_contents WHERE type = :p1) tmp
-2018-11-11 02:05:25:426 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [page]
-2018-11-11 02:05:25:427 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT * FROM t_contents WHERE type = :p1 ORDER BY created desc LIMIT 0, 9999
-2018-11-11 02:05:25:427 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [page]
-2018-11-11 02:05:25:431 INFO - [ nio-worker@ thread-2 ] j.t.JetTemplateImpl       | Loading template: admin/page_list.html
-2018-11-11 02:05:29:802 INFO - [ nio-worker@ thread-1 ] c.b.m.h.RequestExecution  | HTTP/1.0	GET	/admin/page/1
-2018-11-11 02:05:29:804 INFO - [ nio-worker@ thread-1 ] c.t.h.BaseWebHook         | UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
-2018-11-11 02:05:29:805 INFO - [ nio-worker@ thread-1 ] c.t.h.BaseWebHook         | 用户访问地址: /admin/page/1, 来路地址: 127.0.0.1
-2018-11-11 02:05:29:808 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT * FROM t_contents WHERE cid = :p1
-2018-11-11 02:05:29:809 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [1]
-2018-11-11 02:05:29:812 INFO - [ nio-worker@ thread-1 ] j.t.JetTemplateImpl       | Loading template: admin/page_edit.html
-2018-11-11 02:05:30:115 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/static/admin/plugins/toggles/toggles.css
-2018-11-11 02:05:30:118 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/static/admin/plugins/multi-select/0.9.12/css/multi-select.min.css
-2018-11-11 02:05:30:119 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/static/admin/plugins/select2/3.4.8/select2.min.css
-2018-11-11 02:05:30:128 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/static/admin/plugins/summernote/0.8.2/summernote.css
-2018-11-11 02:05:30:130 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/static/admin/plugins/mditor/css/mditor.min.css
-2018-11-11 02:05:30:315 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/static/admin/plugins/dropzone/4.3.0/min/dropzone.min.css
-2018-11-11 02:05:30:382 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/static/admin/plugins/mditor/js/mditor.min.js
-2018-11-11 02:05:30:424 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/static/admin/plugins/wysihtml5/0.3.0/wysihtml5.min.js
-2018-11-11 02:05:30:435 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/static/admin/plugins/summernote/0.8.2/summernote.min.js
-2018-11-11 02:05:30:503 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/static/admin/plugins/summernote/0.8.2/lang/summernote-zh-CN.min.js
-2018-11-11 02:05:30:564 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/static/admin/plugins/multi-select/0.9.12/js/jquery.multi-select.min.js
-2018-11-11 02:05:30:565 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/static/admin/plugins/select2/3.4.8/select2.min.js
-2018-11-11 02:05:30:696 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/static/admin/plugins/jquery-toggles/2.0.4/toggles.min.js
-2018-11-11 02:05:30:929 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/static/admin/plugins/dropzone/4.3.0/min/dropzone.min.js
-2018-11-11 02:05:30:990 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/static/admin/plugins/to-markdown/3.1.0/to-markdown.min.js
-2018-11-11 02:05:31:220 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/static/admin/plugins/mditor/font/af7ae505a9eed503f8b8e6982036873e.woff2
-2018-11-11 02:05:32:567 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/static/admin/plugins/mditor/font/a48ac41620cd818c5020d0f4302489ff.ttf
-2018-11-11 02:05:32:573 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/static/admin/plugins/summernote/0.8.2/font/summernote.woff
+2018-11-13 06:51:50:168 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: jdk.version    => 1.8.0_181
+2018-11-13 06:51:50:185 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: user.dir       => /root/tale
+2018-11-13 06:51:50:185 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: java.io.tmpdir => /tmp
+2018-11-13 06:51:50:185 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: user.timezone  => America/New_York
+2018-11-13 06:51:50:185 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: file.encoding  => UTF-8
+2018-11-13 06:51:50:185 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | Environment: classpath      => /root/tale/resources
+2018-11-13 06:51:50:411 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin
+2018-11-13 06:51:50:412 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/categories.html
+2018-11-13 06:51:50:412 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/feed.xml
+2018-11-13 06:51:50:412 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/atom.xml
+2018-11-13 06:51:50:412 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/page/new
+2018-11-13 06:51:50:412 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/tags
+2018-11-13 06:51:50:412 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/article
+2018-11-13 06:51:50:412 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/feed
+2018-11-13 06:51:50:412 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/index
+2018-11-13 06:51:50:412 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/attach/upload
+2018-11-13 06:51:50:412 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/article/publish
+2018-11-13 06:51:50:412 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/page/publish
+2018-11-13 06:51:50:419 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/category/:keyword/:page.html
+2018-11-13 06:51:50:419 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/comments/delete
+2018-11-13 06:51:50:419 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/template/content
+2018-11-13 06:51:50:419 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/article/publish
+2018-11-13 06:51:50:419 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/template/save
+2018-11-13 06:51:50:419 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/category/save
+2018-11-13 06:51:50:419 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/attach
+2018-11-13 06:51:50:420 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/profile
+2018-11-13 06:51:50:420 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/page/:page
+2018-11-13 06:51:50:420 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/profile
+2018-11-13 06:51:50:420 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/comments
+2018-11-13 06:51:50:420 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/categories
+2018-11-13 06:51:50:420 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/search.html
+2018-11-13 06:51:50:420 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/advanced
+2018-11-13 06:51:50:420 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/themes/setting
+2018-11-13 06:51:50:420 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/login
+2018-11-13 06:51:50:420 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/themes
+2018-11-13 06:51:50:421 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/install
+2018-11-13 06:51:50:421 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/article/:cid.html
+2018-11-13 06:51:50:421 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/page/modify
+2018-11-13 06:51:50:421 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/tags.html
+2018-11-13 06:51:50:421 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => ALL	/admin/attach/delete
+2018-11-13 06:51:50:421 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/page
+2018-11-13 06:51:50:421 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/sitemap
+2018-11-13 06:51:50:421 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/
+2018-11-13 06:51:50:421 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/template
+2018-11-13 06:51:50:421 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/search
+2018-11-13 06:51:50:421 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/sitemap.xml
+2018-11-13 06:51:50:422 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/password
+2018-11-13 06:51:50:422 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/:cid.html
+2018-11-13 06:51:50:422 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/page/:cid
+2018-11-13 06:51:50:422 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/category
+2018-11-13 06:51:50:422 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/category/:keyword/:page
+2018-11-13 06:51:50:422 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/search/:keyword/:page
+2018-11-13 06:51:50:422 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => ALL	/admin/page/delete
+2018-11-13 06:51:50:422 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/tag/:name/:page
+2018-11-13 06:51:50:422 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => ALL	/logout
+2018-11-13 06:51:50:422 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => ALL	/admin/article/delete
+2018-11-13 06:51:50:422 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/tag/:name.html
+2018-11-13 06:51:50:423 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/page/:page.html
+2018-11-13 06:51:50:423 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/search/:keyword.html
+2018-11-13 06:51:50:423 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/comments
+2018-11-13 06:51:50:423 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/setting
+2018-11-13 06:51:50:423 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/archives.html
+2018-11-13 06:51:50:423 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/search/:keyword/:page.html
+2018-11-13 06:51:50:423 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/comment
+2018-11-13 06:51:50:423 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/archives
+2018-11-13 06:51:50:423 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/tag/:name
+2018-11-13 06:51:50:423 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/category/:keyword.html
+2018-11-13 06:51:50:424 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/article/:cid
+2018-11-13 06:51:50:424 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/article/:cid
+2018-11-13 06:51:50:424 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/install
+2018-11-13 06:51:50:424 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/themes/setting
+2018-11-13 06:51:50:424 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/login
+2018-11-13 06:51:50:424 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => ALL	/admin/category/delete
+2018-11-13 06:51:50:424 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/comments/status
+2018-11-13 06:51:50:424 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/:cid
+2018-11-13 06:51:50:424 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/setting
+2018-11-13 06:51:50:424 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/article/modify
+2018-11-13 06:51:50:424 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/themes/active
+2018-11-13 06:51:50:425 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/admin/reload
+2018-11-13 06:51:50:425 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/tag/:name/:page.html
+2018-11-13 06:51:50:425 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/category/:keyword
+2018-11-13 06:51:50:425 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => GET	/search/:keyword
+2018-11-13 06:51:50:425 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add route => POST	/admin/backup
+2018-11-13 06:51:50:425 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add hook  => [BEFORE	/.*]
+2018-11-13 06:51:50:425 INFO - [ _(:3」∠)_ ] c.b.m.r.RouteMatcher      | Add hook  => [AFTER	/.*]
+2018-11-13 06:51:50:435 INFO - [ _(:3」∠)_ ] c.t.i.SqliteJdbc          | blade dev mode: false
+2018-11-13 06:51:50:435 INFO - [ _(:3」∠)_ ] c.t.i.SqliteJdbc          | load sqlite database path [/root/tale/resources/tale.db]
+2018-11-13 06:51:50:435 INFO - [ _(:3」∠)_ ] c.t.i.SqliteJdbc          | load sqlite database src [jdbc:sqlite:///root/tale/resources/tale.db]
+2018-11-13 06:51:50:620 INFO - [ _(:3」∠)_ ] c.t.i.SqliteJdbc          | database path is: /root/tale/resources/tale.db
+2018-11-13 06:51:50:630 INFO - [ _(:3」∠)_ ] c.b.j.Base                | ⬢ Blade-JDBC initializing
+2018-11-13 06:51:50:630 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | ⬢ Register bean: [com.blade.Environment@4ca77897, com.tale.service.ContentsService@695066df, com.tale.init.WebContext@24c54dd9, com.tale.exception.GolbalExceptionHandler@7049a195, com.tale.service.SiteService@7dd0ccb, com.tale.controller.admin.AuthController@6d51e471, com.tale.service.OptionsService@6374c787, com.tale.controller.admin.ThemeController@5e0c9775, com.tale.controller.admin.CategoryController@31d8632b, com.tale.hooks.BaseWebHook@53486b0d, com.tale.controller.CategoryController@1645d61c, com.tale.controller.admin.AttachController@2c485c9e, com.tale.controller.IndexController@5efbb307, com.tale.service.CommentsService@4efbbbd6, com.tale.controller.admin.PageController@76366123, com.tale.controller.admin.IndexController@18747fd7, com.tale.controller.admin.CommentController@1b149455, com.tale.controller.InstallController@822b9ea, com.tale.service.MetasService@4d58feb4, com.tale.init.WebContext@24c54dd9, com.tale.controller.admin.ArticleController@7669ba0f, com.tale.hooks.BaseWebHook@53486b0d, com.tale.controller.admin.TemplateController@49602eab]
+2018-11-13 06:51:50:724 INFO - [ _(:3」∠)_ ] j.t.JetEngineImpl         | JetEngine.version = 2.1.5
+2018-11-13 06:51:50:724 INFO - [ _(:3」∠)_ ] j.t.JetEngineImpl         | JetEngine.loader = jetbrick.template.loader.ClasspathResourceLoader, root = /templates/, reload = true
+2018-11-13 06:51:50:736 INFO - [ _(:3」∠)_ ] j.t.r.c.ClassResolver     | import package: java.lang.*
+2018-11-13 06:51:50:736 INFO - [ _(:3」∠)_ ] j.t.r.c.ClassResolver     | import package: java.util.*
+2018-11-13 06:51:50:739 INFO - [ _(:3」∠)_ ] j.t.r.m.MethodInvokerResolver | import 38 methods from class jetbrick.template.runtime.buildin.JetMethods
+2018-11-13 06:51:50:742 INFO - [ _(:3」∠)_ ] j.t.r.f.FunctionInvokerResolver | import 11 functions from class jetbrick.template.runtime.buildin.JetFunctions
+2018-11-13 06:51:50:745 INFO - [ _(:3」∠)_ ] j.t.r.t.TagInvokerResolver | import 2 tags from class jetbrick.template.runtime.buildin.JetTags
+2018-11-13 06:51:50:747 INFO - [ _(:3」∠)_ ] j.t.r.GlobalResolver      | Scanning @JetMethods, @JetFunctions, @JetTags implements from [com.tale] ...
+2018-11-13 06:51:50:780 INFO - [ _(:3」∠)_ ] j.t.r.GlobalResolver      | Found 0 annotated classes, time elapsed 33 ms.
+2018-11-13 06:51:50:798 INFO - [ _(:3」∠)_ ] j.t.JetTemplateImpl       | Loading template: /comm/macros.html
+2018-11-13 06:51:51:002 INFO - [ _(:3」∠)_ ] j.t.r.f.FunctionInvokerResolver | import 21 functions from class com.tale.extension.Commons
+2018-11-13 06:51:51:002 INFO - [ _(:3」∠)_ ] j.t.r.f.FunctionInvokerResolver | import 50 functions from class com.tale.extension.Theme
+2018-11-13 06:51:51:002 INFO - [ _(:3」∠)_ ] j.t.r.f.FunctionInvokerResolver | import 2 functions from class com.tale.extension.AdminCommons
+2018-11-13 06:51:51:002 INFO - [ _(:3」∠)_ ] j.t.r.t.TagInvokerResolver | import 1 tags from class com.tale.extension.JetTag
+2018-11-13 06:51:51:016 DEBUG - [ _(:3」∠)_ ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT * FROM t_options
+2018-11-13 06:51:51:016 DEBUG - [ _(:3」∠)_ ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => []
+2018-11-13 06:51:51:073 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | ⬢ Watched environment: true
+2018-11-13 06:51:51:125 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | ⬢ Use NioEventLoopGroup
+2018-11-13 06:51:51:393 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | ⬢ Tale (塌了) initialize successfully, Time elapsed: 1263 ms
+2018-11-13 06:51:51:393 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | ⬢ Blade start with 0.0.0.0:1997
+2018-11-13 06:51:51:394 INFO - [ _(:3」∠)_ ] c.b.s.n.NettyServer       | ⬢ Open your web browser and navigate to http://127.0.0.1:1997 ⚡
+2018-11-13 06:51:55:682 INFO - [ nio-worker@ thread-1 ] c.b.m.h.RequestExecution  | HTTP/1.0	GET	/
+2018-11-13 06:51:55:732 INFO - [ nio-worker@ thread-1 ] c.t.h.BaseWebHook         | UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+2018-11-13 06:51:55:732 INFO - [ nio-worker@ thread-1 ] c.t.h.BaseWebHook         | 用户访问地址: /, 来路地址: 127.0.0.1
+2018-11-13 06:51:55:762 INFO - [ nio-worker@ thread-1 ] j.t.JetTemplateImpl       | Loading template: themes/default/index.html
+2018-11-13 06:51:55:785 INFO - [ nio-worker@ thread-1 ] j.t.JetTemplateImpl       | Loading template: themes/default/partial/header.html
+2018-11-13 06:51:55:890 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT COUNT(0) FROM (SELECT * FROM t_contents WHERE type = :p1 AND status = :p2) tmp
+2018-11-13 06:51:55:890 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [post, publish]
+2018-11-13 06:51:55:935 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT * FROM t_contents WHERE type = :p1 AND status = :p2 ORDER BY created desc LIMIT 0, 12
+2018-11-13 06:51:55:935 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [post, publish]
+2018-11-13 06:51:57:085 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT COUNT(0) FROM (SELECT * FROM t_contents WHERE type = :p1 AND status = :p2) tmp
+2018-11-13 06:51:57:086 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [post, publish]
+2018-11-13 06:51:57:086 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT * FROM t_contents WHERE type = :p1 AND status = :p2 ORDER BY created desc LIMIT 0, 12
+2018-11-13 06:51:57:087 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [post, publish]
+2018-11-13 06:51:57:105 INFO - [ nio-worker@ thread-1 ] j.t.JetTemplateImpl       | Loading template: themes/default/partial/footer.html
+2018-11-13 06:51:57:117 INFO - [ nio-worker@ thread-1 ] j.t.JetTemplateImpl       | Loading template: themes/default/partial/social.html
+2018-11-13 06:51:57:119 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT COUNT(0) FROM (SELECT * FROM t_contents WHERE status = :p1 AND type = :p2) tmp
+2018-11-13 06:51:57:120 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [publish, post]
+2018-11-13 06:51:57:121 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT * FROM t_contents WHERE status = :p1 AND type = :p2 ORDER BY created desc LIMIT 0, 8
+2018-11-13 06:51:57:121 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [publish, post]
+2018-11-13 06:51:57:134 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT COUNT(0) FROM (SELECT * FROM t_comments) tmp
+2018-11-13 06:51:57:134 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => []
+2018-11-13 06:51:57:134 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT * FROM t_comments ORDER BY created desc LIMIT 0, 8
+2018-11-13 06:51:57:135 DEBUG - [ nio-worker@ thread-1 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => []
+2018-11-13 06:51:57:611 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/templates/themes/default/static/css/xcode.min.css
+2018-11-13 06:51:57:631 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/templates/themes/default/static/css/style.min.css
+2018-11-13 06:51:57:817 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/static/admin/plugins/jquery/3.2.1/jquery.min.js
+2018-11-13 06:51:57:977 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/templates/themes/default/static/js/headroom.min.js
+2018-11-13 06:51:58:007 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/templates/themes/default/static/img/logo.png
+2018-11-13 06:51:58:231 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/templates/themes/default/static/js/instantclick.min.js
+2018-11-13 06:51:58:705 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/templates/themes/default/static/img/bg-ico.png
+2018-11-13 06:51:58:710 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/templates/themes/default/static/img/rand/12.jpg
+2018-11-13 06:51:58:714 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/upload/2018/10/u9obnvtreah3qpem7uc0glnsb8.jpg
+2018-11-13 06:51:58:725 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/templates/themes/default/static/img/rand/15.jpg
+2018-11-13 06:51:58:729 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/upload/2018/08/0k1fbv5hroi69rn69hkm2uqcsd.jpg
+2018-11-13 06:51:58:730 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/upload/2018/08/r15sm8sfn6icnpqkidmdnkls7p.jpg
+2018-11-13 06:51:58:987 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/templates/themes/default/static/img/rand/19.jpg
+2018-11-13 06:51:59:367 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/upload/2018/09/u50drqv3p6j61or1r5ero6881l.jpg
+2018-11-13 06:51:59:470 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/templates/themes/default/static/img/rand/7.jpg
+2018-11-13 06:52:01:132 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/templates/themes/default/static/img/rand/1.jpg
+2018-11-13 06:52:01:969 INFO - [ nio-worker@ thread-2 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/upload/2018/08/tpf09kqd10ga8ocvv34q11vrak.jpg
+2018-11-13 06:52:03:556 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/templates/themes/default/static/img/rand/2.jpg
+2018-11-13 06:52:03:863 INFO - [ nio-worker@ thread-2 ] c.b.m.h.RequestExecution  | HTTP/1.0	GET	/article/40
+2018-11-13 06:52:03:865 INFO - [ nio-worker@ thread-2 ] c.t.h.BaseWebHook         | UserAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+2018-11-13 06:52:03:865 INFO - [ nio-worker@ thread-2 ] c.t.h.BaseWebHook         | 用户访问地址: /article/40, 来路地址: 127.0.0.1
+2018-11-13 06:52:03:871 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT * FROM t_contents WHERE cid = :p1
+2018-11-13 06:52:03:871 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [40]
+2018-11-13 06:52:03:875 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => UPDATE t_contents SET hits = :p1 WHERE cid = :p2
+2018-11-13 06:52:03:875 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [28, 40]
+2018-11-13 06:52:03:951 INFO - [ nio-worker@ thread-2 ] j.t.JetTemplateImpl       | Loading template: themes/default/post.html
+2018-11-13 06:52:03:977 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT * FROM t_contents WHERE type = :p1 AND status = :p2 AND created < :p3 ORDER BY created DESC LIMIT 1
+2018-11-13 06:52:03:977 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [post, publish, 1528979170]
+2018-11-13 06:52:03:986 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT * FROM t_contents WHERE type = :p1 AND status = :p2 AND created > :p3 ORDER BY created ASC LIMIT 1
+2018-11-13 06:52:03:987 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [post, publish, 1528979170]
+2018-11-13 06:52:03:990 INFO - [ nio-worker@ thread-2 ] j.t.JetTemplateImpl       | Loading template: themes/default/partial/comments.html
+2018-11-13 06:52:04:010 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT COUNT(0) FROM (SELECT * FROM t_comments WHERE cid = :p1 AND parent = :p2) tmp
+2018-11-13 06:52:04:011 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [40, 0]
+2018-11-13 06:52:04:011 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT * FROM t_comments WHERE cid = :p1 AND parent = :p2 ORDER BY coid desc LIMIT 0, 6
+2018-11-13 06:52:04:011 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [40, 0]
+2018-11-13 06:52:04:020 INFO - [ nio-worker@ thread-2 ] j.t.JetTemplateImpl       | Loading template: /comm/tale_comment.html
+2018-11-13 06:52:04:021 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT COUNT(0) FROM (SELECT * FROM t_contents WHERE status = :p1 AND type = :p2) tmp
+2018-11-13 06:52:04:021 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [publish, post]
+2018-11-13 06:52:04:022 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT * FROM t_contents WHERE status = :p1 AND type = :p2 ORDER BY created desc LIMIT 0, 8
+2018-11-13 06:52:04:022 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => [publish, post]
+2018-11-13 06:52:04:023 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT COUNT(0) FROM (SELECT * FROM t_comments) tmp
+2018-11-13 06:52:04:024 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => []
+2018-11-13 06:52:04:024 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Execute SQL => SELECT * FROM t_comments ORDER BY created desc LIMIT 0, 8
+2018-11-13 06:52:04:024 DEBUG - [ nio-worker@ thread-2 ] c.b.j.c.ActiveRecord      | ⬢ Parameters  => []
+2018-11-13 06:52:07:574 INFO - [ nio-worker@ thread-1 ] c.b.s.n.StaticFileHandler | HTTP/1.0	GET	/templates/themes/default/static/img/favicon.png
